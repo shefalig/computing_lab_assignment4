@@ -52,7 +52,7 @@ echo "<td>" . $row['date'] . "</td>";
 $parts = explode(':', $row['time']);
 $hours = (int) $parts[0];
 $minutes = (int) $parts[1];
-echo "<td>" .$hours . ":" . $minutes . "0"."</td>";
+echo "<td>" .$hours . ":" . $minutes . "0"." "."hrs"."</td>";
 echo "<td>" .$row['event'] . "</td> " ;
 echo "<td>" .$row['room'] . "</td>"; 
 echo "<tr />";
