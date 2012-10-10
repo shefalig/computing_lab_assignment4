@@ -47,7 +47,8 @@ exit();
 <option>cs102</option>
 </select></p>
 <p><label><input type="submit" value="Book" /></label></p>
-</form>
+</form></br>
+<p><label><a href="portal_login.php"><i>Back to home page</i></a></label></p>
 </div>
 </div>
 </body>
